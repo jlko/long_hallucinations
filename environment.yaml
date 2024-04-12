@@ -1,0 +1,37 @@
+name: hallu
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.6
+  - pip:
+    - chardet
+    - charset-normalizer>=3.1.0
+    - transformers>=4.31
+    - scikit-learn
+    - pandas
+    - jupyterlab
+    - notebook
+    - matplotlib
+    - seaborn
+    - ipywidgets
+    - scipy
+    - wandb
+    - openai
+    - tiktoken
+    - nltk
+    - tenacity
+    - tokenizers>=0.13.3
+    - accelerate
+    - ml_collections
+    - torchmetrics
+    - einops
+    - bitsandbytes
+    - sentencepiece
